@@ -1,0 +1,29 @@
+R-RFM: Running RFM v5.10_March2
+I-OPNFIL: Opening file: rfm.drv
+  *HDR
+*HDR
+  !05MAY18 RFM Example: Limb Radiance Calculation
+*FLG
+ I-DRVFLG: Enabled flags:  RAD  FLX  SFC
+*SPC
+I-SPCCHK: Label=         Range, Resln=     0.10000  3500.00000     0.01000
+*GAS
+ I-DRVGAS: Using gases:  co2  h2o
+*ATM
+I-OPNFIL: Opening file: ../atm/usa-tempplus1.atm
+  ! FASCOD Model 6. U.S. Standard Atmosphere plus minor constituents 19DEC99
+  *PRE
+  *TEM
+  *H2O
+  *CO2
+*TAN
+ I-DRVTAN:  20.0
+*HIT
+I-HITTYP: Opening HITRAN File: ../hit/h2o_co2_0-3500cm-1.par
+I-HITTYP: Identified as HITRAN 160-character .par file
+I-OPNHIT: Opening HITRAN File: ../hit/h2o_co2_0-3500cm-1.par
+I-OPNHIT: HITRAN file has wavenumber range 0.0721to >=3.50E+03 cm-1
+W-HITCHK: HITRAN file may not include all lines within 25.0 cm-1 of output
+*END
+I-OPNOUT: Opening output file: rad_20000.asc
+R-RFM: Successful completion

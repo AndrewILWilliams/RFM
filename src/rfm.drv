@@ -1,0 +1,15 @@
+*HDR
+05MAY18 RFM Example: Limb Radiance Calculation
+*FLG
+   RAD FLX SFC
+*SPC
+   0.1 3500 0.01
+*GAS
+   CO2 H2O
+*ATM
+   ../atm/usa-tempplus1.atm
+*TAN
+  20.0
+*HIT
+  ../hit/h2o_co2_0-3500cm-1.par
+*END
